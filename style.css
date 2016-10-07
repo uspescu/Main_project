@@ -1,0 +1,1085 @@
+body{
+  background: url(https://s10.postimg.org/tiit1oul5/laba_trista_albastra.jpg) no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.hed{
+  height: 100%;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+    
+}
+header{
+  width: 100%;
+  text-align: left;
+  line-height: 48px;
+  height: 108px;
+  background: #335C7D;
+  transition: all 0.4s ease;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.cont{
+  width: 80%;
+  margin-left: 90px;
+  padding: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  border-radius: 10px;
+    background-color: #0D304C;
+    color: white !important;
+  padding: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+
+.navbar-nav > li > .dropdown-menu { background-color: #0D304C; }
+
+.main-butt a{
+  color: white !important;
+  font-size: 25px;
+  
+}
+
+.main-butt a:hover{
+  color: #0D304C !important;
+  border: 1px solid white;
+  background: white !important;
+  bottom: 5px;
+  transition: 0.4s;
+}
+
+.navbar-right li:nth-child(1){
+  top: 1px;
+  font-size: 22px;
+}
+
+.navbar-right li:nth-child(2){
+  top: 9px;
+  font-size: 22px;
+}
+
+
+.navbar-nav{
+  margin-top: 10px !important;
+}
+
+.navbar-right{
+  position: relative;
+  bottom: 10px;
+}
+.active:hover{
+  background: none !important;
+}
+
+.navbar{
+  height: 1px;
+  
+}
+.container-fluid .navbar-brand{
+  font-size: 28px !important;
+  border: 1px solid #335C7D;
+  color: #335C7D !important;
+  background: white !important;
+  border-radius: 17px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  margin-right: 20px;
+}
+.container-fluid .navbar-brand:hover{
+  color: white !important;
+  background: #335C7D !important;
+  border: 1px solid white;
+  
+}
+
+
+
+header.sticky {
+  line-height: 48px;
+  height: 48px;
+  background: #0d304c;
+  text-align: left;
+  padding-left: 30px;
+  height: 60px;
+  
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.title{
+  float:left;
+}
+
+
+
+.gal{
+  padding-top: 150px;
+  margin-bottom: 0px;
+}
+
+.lightbulb{
+  float: left;
+  padding: 20px;
+  margin-top: 42px;
+  margin-bottom: 20px;
+}
+
+.text{
+  width: 700px;
+  float: left;
+}
+
+.actionc{
+  position: relative;
+  text-decoration: none !important;
+  top: 80px;
+  font-size: 30px;
+  border: 1px solid #0D304C;
+  padding: 10px;
+  border-radius: 10px;
+  background: #0D304C;
+  color: white;
+  outline: none;
+  
+}
+
+
+.actionc:hover{
+  background: white;
+  color: #0D304C
+}
+
+
+.subhead{
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.subhead h3{
+  padding-top: 40px;
+  font-size: 30px;
+  
+}
+
+
+.red-blue{ 
+  margin-top: 160px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: white;
+}
+
+.red-blue ul li:hover{
+  color: grey;
+}
+
+.red-background{ 
+  height: 390px;
+  background: #b2696e;
+  width: 900px;
+  float: left;
+  transition: width 0.6s ease-in-out;
+}
+.first-ul{
+  float:left;
+  padding-right: 70px;
+}
+
+
+.red-background:hover{
+  width: 1150px;
+  transition: 0.5s;
+  background: #a56166;
+}
+
+#red-hidden-utis, #red-hidden-upset, #red-hidden-renal, #red-hidden-diarrhea, #red-hidden-allergies, #red-hidden-diabetes, #red-hidden-colitis, #red-hidden-ear, #red-hidden-uris, #red-hidden-hyper, #yellow-hidden-utis, #yellow-hidden-upset, #yellow-hidden-renal, #yellow-hidden-diarrhea, #yellow-hidden-allergies, #yellow-hidden-diabetes, #yellow-hidden-colitis, #yellow-hidden-ear, #yellow-hidden-uris, #yellow-hidden-hyper, #blue-hidden-ear, #blue-hidden-allergies, #blue-hidden-skin, #blue-hidden-upset, #blue-hidden-diarrhea, #blue-hidden-bladder, #blue-hidden-eye, #blue-hidden-arth, #blue-hidden-hypo, #blue-hidden-sprains{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 300px;
+  float: right;
+  margin-top: -120px;
+  display: none;
+}
+
+
+
+.utiS, .upset, .renal, .hiarrhea, .allergies, .diabetes, .colitis, .ear, .uriS, .hyper, .y-utis, .y-upset, .y-renal, .y-hiarrhea, .y-allergies, .y-diabetes, .y-colitis, .y-ear, .y-uris, .y-hyper, .b-ear, .b-allergies, .b-skin, .b-upset, .b-diarrhea, .b-bladder, .b-eye, .b-arth, .b-hypo, .b-sprains{
+  
+  cursor: pointer;
+}
+
+
+
+
+.red-background h2{
+  font-size: 500px;
+}
+
+.yellow-background{
+  height: 390px;
+  background: #FFB12A;
+  width: 900px;
+  float: right;
+  margin-right: 14px;
+  transition: width 0.6s ease-in-out;
+  padding-left: 37px;
+}
+
+.yellow-background:hover{
+  width: 1170px;
+  transition: 0.5s;
+}
+
+
+
+.f-ul {
+  float: left;
+  padding-right: 110px;
+}
+
+
+.blue-background{
+  height: 390px;
+  background:#335C7D ;
+  width: 900px;
+  float: left;
+  transition: width 0.6s ease-in-out;
+  margin-bottom: -300px;
+
+}
+
+.blue-background:hover{
+  width: 1170px;
+  transition: 0.5s;
+  
+  
+}
+
+.f-ull{
+  float:left;
+  padding-right: 95px;
+  margin-left: -25px;
+}
+
+.yellow-background img{
+  float:right;
+  width: 350px;
+  
+}
+
+.blue-background img{
+  float: left;
+  padding-right: 35px;
+  
+}
+.red-background img{
+  float:left;
+  padding-right: 35px;
+}
+
+
+.red-blue h2{
+  font-size: 30px;
+}
+
+.red-blue p{
+  font-size: 25px;
+}
+
+.red-blue ul li{
+  font-size: 22px;
+}
+
+.price-plan{
+  height: 950px;
+}
+.price-plan h1{
+  text-align: center;
+  padding-top: 420px;
+  padding-bottom: 42px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: #335C7D;
+}
+
+.level{
+  width: 300px;
+  height: 300px;
+  border-bottom: 3px solid #C1686E;
+}
+
+.level h2{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 35px;
+  margin-top: 0px;
+  padding: 13px;
+  background: #c1686e;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.level p{
+  font-size: 25px;
+  font-family: 'Baloo Bhaina', cursive;
+  padding: 10px;
+  margin-top: -9px;
+  background: #c47b80;
+}
+
+.injuries{
+  cursor: pointer;
+}
+.injuries1{
+  cursor: pointer;
+}
+.injuries2{
+  cursor: pointer;
+}
+.illiness1{
+  cursor: pointer;
+}
+
+.illiness2{
+  cursor: pointer;
+}
+
+.advance{
+  cursor: pointer;
+}
+
+.inj-icon{
+  margin-right: 10px;
+}
+
+.hearth-icon{
+  margin-right: 8px;
+}
+.advance-icon{
+  margin-right: 7px;
+}
+.hidden-inj{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display: none;
+}
+.hidden-inj ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;
+  
+}
+
+.hidden-inj1{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display: none;
+}
+
+.hidden-inj1 ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;
+}
+
+.hidden-inj2{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display: none;
+}
+
+.hidden-inj2 ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;
+}
+
+.hidden-ili1{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display:none;
+}
+
+
+.hidden-ili1 ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;  
+}
+
+.hidden-ili2{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display:none;
+}
+
+.hidden-ili2 ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;  
+}
+
+.hidden-advCare{
+  padding: 10px;
+  background: #C47B80;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-top: -10px;
+  display:none;
+}
+
+.hidden-advCare ul{
+  font-size: 17px;
+  background: #E5999E;
+  border-radius: 10px;  
+}
+
+.level h3{
+  padding: 29px;
+  margin-top: -9px;
+  background: #e5999e;
+}
+
+
+
+.glyphicon-plus{
+  padding-left: 116px;
+}
+
+#illinnes-plus{
+  padding-left:97px;
+}
+
+#advance-plus{
+  padding-left: 38px;
+}
+
+.injuries-f img{
+  float:left;
+  margin-bottom: 30px;
+  margin-top: 35px;
+  margin-right: 24px;
+}
+
+.injur{
+  width: 47%;
+  float: left;
+  margin-top: 90px;
+}
+.injuries-f{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 20px;
+  padding: 10px;
+  
+}
+
+.right{
+  width: 42%;
+  float: right;
+  margin-top: 135px;
+}
+.first-right h1{
+  font-family: 'Baloo Bhaina', cursive;
+  color: #0D304C;
+  
+}
+
+.first-right p{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 20px;
+}
+
+.paw-shake{
+  background:url(https://www.aspcapetinsurance.com/css/img/jumbo/paw-shake-white-01.jpg) no-repeat center center;
+  height: 300px;
+  width: 100%;
+  margin-top: 100px;
+  
+}
+
+.learn a{
+  color: white;
+}
+
+.learn a:hover{
+  color: grey;
+}
+
+.paw-shake-active{
+  background:url(https://www.aspcapetinsurance.com/css/img/jumbo/paw-shake-white-01.jpg) no-repeat center center;
+  height: 300px;
+  width: 970px;  
+  position: absolute;
+  top: 330%;
+}
+
+.paw-shake h2{
+  font-family: 'Farsan', cursive;
+  font-style: oblique;
+  padding-top: 90px;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 60px;
+  
+}
+
+.footer-text{
+  left: 25%;
+  font-size: 24px;
+  font-family: 'Baloo Bhaina', cursive;
+  margin-bottom: -240px;
+  margin-top: -150px;
+  
+}
+
+.footer-text button{
+  border-radius: 5px;
+  background: #0D304C;
+  color: white;
+  border: 1px solid white;
+  width: 39%;
+  margin-left: 150px;
+}
+
+.half input{
+  width: 40% !important;
+  margin-left: 145px;
+}
+
+.footer-text ul li{
+  list-style-type: none;
+  display: inline;
+  
+}
+
+.footer-pic img{
+  margin-bottom: 16px;
+  float: right;
+}
+
+.footer {
+    background: #0d304c;
+    padding: 10px 0;
+  margin-top: -16px;
+}
+.footer-text p{
+  margin-top: 350px;
+  margin-left: 120px;
+}
+
+.footer a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: #0d304c;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  background: white;
+}
+
+
+
+
+@media screen and (max-width:377px){
+
+  .action{
+    padding: 0px;
+    font-size: 25px;
+  }
+  
+  #red-hidden-utis, #red-hidden-upset, #red-hidden-renal, #red-hidden-diarrhea, #red-hidden-allergies, #red-hidden-diabetes, #red-hidden-colitis, #red-hidden-ear, #red-hidden-uris, #red-hidden-hyper, #yellow-hidden-utis, #yellow-hidden-upset, #yellow-hidden-renal, #yellow-hidden-diarrhea, #yellow-hidden-allergies, #yellow-hidden-diabetes, #yellow-hidden-colitis, #yellow-hidden-ear, #yellow-hidden-uris, #yellow-hidden-hyper, #blue-hidden-ear, #blue-hidden-allergies, #blue-hidden-skin, #blue-hidden-upset, #blue-hidden-diarrhea, #blue-hidden-bladder, #blue-hidden-eye, #blue-hidden-arth, #blue-hidden-hypo, #blue-hidden-sprains{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 300px;
+  float: right;
+  margin-top: -120px;
+  display: none !important;
+}
+
+  .container-fluid .navbar-brand{
+  font-size: 20px !important;
+  border: 1px solid #335C7D;
+  color: #335C7D !important;
+  background: white !important;
+  border-radius: 17px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+    position: absolute;
+    left: 200px;
+    
+}
+.container-fluid .navbar-brand:hover{
+  color: white !important;
+  background: #335C7D !important;
+  border: 1px solid white;
+  
+}
+
+  header ul li{
+    padding-top: 10px;
+  }
+
+
+  header a{
+    position: absolute;
+  }
+  
+ 
+  
+ 
+  .red-background {
+    height: 300px;
+    width: 355px !important;
+    transition: none;
+    margin-left: -15px;
+
+  }
+  
+
+
+  
+  .red-background img{
+    width: 130px;
+    height: 100px;
+    display: none;
+    
+
+}
+
+
+   .blue-background {
+    height: 360px !important;
+    width: 360px !important;
+    transition: none;
+     margin-left: -16px;
+
+  }
+  
+  .blue-background img{
+display: none;
+}
+  
+  .red-blue p{
+    font-size: 15px;
+  }
+  .red-blue ul li{
+    font-size: 15px;
+  }
+  
+  .yellow-background img{
+    display: none;
+  }
+  
+  .yellow-background {
+    height: 300px ;
+    width: 330px !important;
+    transition: none;
+    padding-left: 10px;
+
+  }
+  
+ 
+  
+  .level{
+    margin-bottom: 30px;
+  }
+  
+  .injur{
+    margin-top: 110px;
+    width: 350px;
+  }
+  
+  .right{
+    display: none;
+  }
+  .paw-shake{
+    display: none;
+    
+  }
+  
+  .footer-text{
+    display: none;
+  }
+  
+  .footer-pic img{
+    width: 300px;
+    height: 270px;
+  }
+  
+}
+@media screen and (max-width:1000px){ 
+
+  
+  .red-background{
+    height: 320px;
+    width: 710px;
+  }
+  
+  .red-background:hover{
+    width: 710px;
+  }
+  .red-background img{
+    width: 270px;
+  }
+  
+  .yellow-background img{
+   width: 270px;
+  }
+  .yellow-background{
+    height: 320px;
+    width: 725px;
+    margin-right: -21px;
+  }
+  
+  .yellow-background:hover{
+    width: 725px;
+  }
+  
+  .blue-background{
+    height: 320px;
+    width: 710px;
+  }
+  .blue-background img{
+    width:275px;
+    height: 320px;
+  }
+  
+    #red-hidden-utis, #red-hidden-upset, #red-hidden-renal, #red-hidden-diarrhea, #red-hidden-allergies, #red-hidden-diabetes, #red-hidden-colitis, #red-hidden-ear, #red-hidden-uris, #red-hidden-hyper, #yellow-hidden-utis, #yellow-hidden-upset, #yellow-hidden-renal, #yellow-hidden-diarrhea, #yellow-hidden-allergies, #yellow-hidden-diabetes, #yellow-hidden-colitis, #yellow-hidden-ear, #yellow-hidden-uris, #yellow-hidden-hyper, #blue-hidden-ear, #blue-hidden-allergies, #blue-hidden-skin, #blue-hidden-upset, #blue-hidden-diarrhea, #blue-hidden-bladder, #blue-hidden-eye, #blue-hidden-arth, #blue-hidden-hypo, #blue-hidden-sprains{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 300px;
+  float: right;
+  margin-top: -120px;
+  display: none !important;
+}
+  
+  .blue-background:hover{
+    width: 710px;
+  }
+  
+
+  
+  .red-blue h2{
+    font-size: 20px;
+  }
+  
+  .red-blue ul li{
+    font-size: 18px;
+  }
+  
+  .red-blue p{
+    font-size: 15px;
+  }
+
+  .navbar-right a{
+    color: #335C7D !important;
+  }
+  
+  .price-plan{
+    padding: 50px;
+    margin-bottom: 450px;
+  }
+  
+  .level{
+    margin-bottom: 20px;
+  }
+  .injur{
+    margin-top: -350px;
+  }  
+  
+  .right{
+    margin-top: -350px;
+  }
+  
+  .paw-shake{
+  background:url(https://www.aspcapetinsurance.com/css/img/jumbo/paw-shake-white-01.jpg) no-repeat center center;
+  height: 300px;
+  width: 100%;  
+  position: absolute;
+  top: 330%;
+  display: none;
+}
+
+.price-plan{
+  margin-left: -20px;
+}
+
+
+}
+
+@media screen and (max-width:787px){ 
+  .main-butt a{
+    color: white !important;
+    background: #335C7D;
+  }
+  
+  .red-background{
+    height: 320px;
+    width: 710px;
+  }
+  
+  .red-background:hover{
+    width: 710px;
+  }
+  .red-background img{
+    width: 270px;
+  }
+  
+  .yellow-background img{
+   width: 270px;
+  }
+  .yellow-background{
+    height: 320px;
+    width: 725px;
+    margin-right: -21px;
+  }
+  
+  .yellow-background:hover{
+    width: 725px;
+  }
+  
+  .blue-background{
+    height: 320px;
+    width: 710px;
+  }
+  .blue-background img{
+    width:275px;
+    height: 320px;
+  }
+  
+    #red-hidden-utis, #red-hidden-upset, #red-hidden-renal, #red-hidden-diarrhea, #red-hidden-allergies, #red-hidden-diabetes, #red-hidden-colitis, #red-hidden-ear, #red-hidden-uris, #red-hidden-hyper, #yellow-hidden-utis, #yellow-hidden-upset, #yellow-hidden-renal, #yellow-hidden-diarrhea, #yellow-hidden-allergies, #yellow-hidden-diabetes, #yellow-hidden-colitis, #yellow-hidden-ear, #yellow-hidden-uris, #yellow-hidden-hyper, #blue-hidden-ear, #blue-hidden-allergies, #blue-hidden-skin, #blue-hidden-upset, #blue-hidden-diarrhea, #blue-hidden-bladder, #blue-hidden-eye, #blue-hidden-arth, #blue-hidden-hypo, #blue-hidden-sprains{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 300px;
+  float: right;
+  margin-top: -120px;
+  display: none !important;
+}
+  
+  .blue-background:hover{
+    width: 710px;
+  }
+  
+
+  
+  .red-blue h2{
+    font-size: 20px;
+  }
+  
+  .red-blue ul li{
+    font-size: 18px;
+  }
+  
+  .red-blue p{
+    font-size: 15px;
+  }
+
+  .navbar-right a{
+    color: #335C7D !important;
+  }
+  
+  .price-plan{
+    padding: 50px;
+    margin-bottom: 450px;
+  }
+  
+  .level{
+    margin-bottom: 20px;
+  }
+  .injur{
+    margin-top: 350px;
+  }  
+  
+  .right{
+    margin-top: 350px;
+  }
+  
+  .paw-shake{
+  background:url(https://www.aspcapetinsurance.com/css/img/jumbo/paw-shake-white-01.jpg) no-repeat center center;
+  height: 300px;
+  width: 100%;  
+  position: absolute;
+  top: 330%;
+  display: none;
+}
+
+.price-plan{
+  margin-left: -20px;
+}
+
+
+}
+
+

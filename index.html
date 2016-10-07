@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Pet Friend</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="glyphicons-halflings-regular.ttf" rel="stylesheet"> 
+  <link href="glyphicons-halflings-regular.woff" rel="stylesheet"> 
+  <link href="glyphicons-halflings-regular.woff2" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="hed">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <header>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://uspescu.github.io/Main_project">My Pet Friend</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="main-butt">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="https://github.com/uspescu/Main_project" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Why MyPetFriend? <span class="caret"></span></a>
+          
+          <ul class="dropdown-menu">
+            <li><a href="https://uspescu.github.io/Pet_Comparisons">Pet Insurance Comparisons</a></li>
+            <li><a href="https://uspescu.github.io/Pet_Senior">Senior Pet Care</a></li>
+            <li><a href="https://uspescu.github.io/Pet_Resorce">Pet Resorce Center</a></li>
+          </ul>
+        </li>
+        <li><a href="https://github.com/uspescu/Main_project">About</a></li>
+        <li><a href="#bottom" id="top">Our Plans</a></li>
+      </ul>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-user"></span> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></a></li>
+        
+<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+ 
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                 
+                                or with MyPetFriend email account
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                      <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+      
+      
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<div class="cont">
+      <label><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="uname" required>
+      <label><b>Second Name</b></label>
+      <input type="text" placeholder="Enter Second Name" name="uname" required>
+      <label><b>Your Pet Name</b></label>
+      <input type="text" placeholder="Enter Pet Name" name="uname" required>
+      <label><b>Email Adress</b></label>
+      <input type="text" placeholder="Enter Pet Name" name="uname" required>
+      
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Sign Up</button>
+    </div>
+
+    <div class="cont" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>      
+      
+      
+      
+      
+      
+      
+    <div class="gal">
+      <div class="container">
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="item1 active"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="https://www.petfirst.com/getattachment/838c6031-4cb8-4b4e-b734-1863bb35c483/Frank.aspx" alt="sox" width="1400" height="800">
+      </div>
+      
+      <div class="item">
+        <img src="https://www.petfirst.com/getattachment/53bcdb17-f555-4e2c-b1c0-efaa4a0c00e8/Katniss.aspx" alt="sox" width="1400" height="800">
+      </div>
+
+      <div class="item">
+        <img src="https://www.petfirst.com/getattachment/90358dfd-4266-4609-b73e-3dd729ad534b/Sparky.aspx" alt="sparky" width="1400" height="800">
+      </div>
+    
+      <div class="item">
+        <img src="https://www.petfirst.com/getattachment/0d70c3c6-30eb-4a7f-b7b5-70bfae2dfa0d/Sox.aspx" alt="Kobe" width="1400" height="800">
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+   
+  </div>
+</div>
+    </div>
+    
+    
+
+      
+<div class="container red-blue">
+<div class="red-background">
+  <img class="responsive" src="http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/portrait-gray-tabby-cat-maika-777.jpg" height="390" width="400">
+ <div class="utis"><h2>Cat Insurance</h2></div>
+  <p>
+    Get coverage for the Top 10 Common<br /> Conditions for Cats:
+  </p>
+       
+      <h3 id="red-hidden-utis">
+        Idiopathic Feline Lower Urinary Tract Disease (IFLUTD) is a general term for disorders characterized by blood in the urine, difficult or painful urination, urinating in inappropriate locations
+      </h3>
+        <h3 id="red-hidden-upset">
+        An upset stomach in a cat can be a very stressful situation for pet owners that feel helpless as they might not know what to do to help their cat feel better. Cat owners need not fret because there are some great cures one can try at home to ease a cat's tummy troubles.
+      </h3>
+          <h3 id="red-hidden-renal">
+        Your cat’s kidneys do many important things. They help manage blood pressure, make hormones and red blood cells, and remove waste from her blood.
+      </h3>
+          <h3 id="red-hidden-diarrhea">
+        Diarrhea is characterized by frequent loose or liquid bowel movements. It can be caused by something as simple as a change in diet or a more serious illness or infection.
+      </h3>
+          <h3 id="red-hidden-allergies">
+        Cat allergies are genetic, meaning that you’re more likely to develop them if you have family members who are allergic.
+      </h3>
+          <h3 id="red-hidden-diabetes">
+        The main symptoms are increased thirst and increased urination. And while we do see it in cats with appropriate body weight, it’s more common in obese cats. 
+      </h3> 
+          <h3 id="red-hidden-colitis">
+        Histiocytic ulcerative colitis is a bowel disease which causes the lining of an animal's colon to thicken, with varying degrees of ulceration and tissue loss to the superficial lining. 
+      </h3>   
+           <h3 id="red-hidden-ear">
+        Diagnosing the condition may require sedation or X-rays, but treating ear infections usually isn’t complicated. Antibiotics, anti-parasitics, antifungals, and corticosteroids are the most common treatments.
+      </h3>  
+           <h3 id="red-hidden-uris">
+        By far, viruses are the most common causes of upper respiratory infections (URIs) in cats. Feline calicivirus and feline herpesvirus account for 80 to 90 percent of all contagious upper respiratory problems.
+      </h3>   
+           <h3 id="red-hidden-hyper">
+        Hyperthyroidism is the most common glandular disorder in cats. It is most frequently caused by an excessive concentration of circulating thyroxine-a thyroid hormone better known as T4-in the bloodstream.
+      </h3>   
+  
+  
+  <ul class="first-ul">
+     <li class="utiS"> UTIs</li> 
+    <li class="upset">Upset stomach</li>
+    <li class="renal">Renal failure</li>
+    <li class="hiarrhea">Diarrhea</li>
+    <li class="allergies">Allergies</li>
+    </ul>
+  <ul>
+    <li class="diabetes"> Diabetes </li>
+    <li class="colitis"> Colitis </li>
+    <li class="ear">Ear infections</li>
+    <li class="uriS"> URIs </li>
+    <li class="hyper"> Hyperthyroidism </li>
+    </li><hr/>
+  <div class="learn"><p> <a href="#"> Learn about cat insurance </a> </p> </div>
+
+    </div>
+  
+  <div class="yellow-background">
+  <img class="responsive" src="https://s-media-cache-ak0.pinimg.com/originals/8b/d1/6e/8bd16ee036a8c2f61e0122d8f2083af3.jpg" height="390" width="400">
+ <h2>Exotic Pet Insurance</h2>
+  <p>
+    Get coverage for the Top 10 <br />Common Conditions for Exotic Pets:
+  </p>
+    <h3 id="yellow-hidden-utis">
+        Idiopathic Feline Lower Urinary Tract Disease (IFLUTD) is a general term for disorders characterized by blood in the urine, difficult or painful urination, urinating in inappropriate locations
+      </h3>
+     <h3 id="yellow-hidden-upset">
+        An upset stomach in a pet can be a very stressful situation for pet owners that feel helpless as they might not know what to do to help their pet feel better.
+      </h3>
+      <h3 id="yellow-hidden-renal">
+        Your pet's kidneys do many important things. They help manage blood pressure, make hormones and red blood cells, and remove waste from her blood.
+      </h3>
+    
+      <h3 id="yellow-hidden-diarrhea">
+        Diarrhea is characterized by frequent loose or liquid bowel movements. It can be caused by something as simple as a change in diet or a more serious illness or infection.
+      </h3>
+    <h3 id="yellow-hidden-allergies">
+        Pets allergies are genetic, meaning that you’re more likely to develop them if you have family members who are allergic.
+      </h3>
+    
+     <h3 id="yellow-hidden-diabetes">
+        The main symptoms are increased thirst and increased urination. And while we do see it in pets with appropriate body weight, it’s more common in obese pets. 
+      </h3>
+          <h3 id="yellow-hidden-colitis">
+        Histiocytic ulcerative colitis is a bowel disease which causes the lining of an animal's colon to thicken, with varying degrees of ulceration and tissue loss to the superficial lining. 
+      </h3>
+ <h3 id="yellow-hidden-ear">
+        Diagnosing the condition may require sedation or X-rays, but treating ear infections usually isn’t complicated. Antibiotics, anti-parasitics, antifungals, and corticosteroids are the most common treatments.
+      </h3>  
+           <h3 id="yellow-hidden-uris">
+        By far, viruses are the most common causes of upper respiratory infections (URIs).
+      </h3>   
+           <h3 id="yellow-hidden-hyper">
+        Hyperthyroidism is the most common glandular disorder . It is most frequently caused by an excessive concentration of circulating thyroxine-a thyroid hormone better known as T4-in the bloodstream.
+      </h3>       
+  <ul class="f-ul">
+    <li class="y-utis">UTIs</li>
+    <li class="y-upset">Upset stomach</li>
+    <li class="y-renal">Renal failure</li>
+    <li class="y-diarrhea">Diarrhea</li>
+      <li class="y-allergies">Allergies</li>
+      </ul>
+    <ul>
+    <li class="y-diabetes"> Diabetes </li>
+    <li class="y-colitis"> Colitis </li>
+    <li class="y-ear">Ear infections</li>
+    <li class="y-uris"> URIs </li>
+    <li class="y-hyper"> Hyperthyroidism </li>
+    </ul><hr/>
+    <div class="learn"> <p> <a href="#"> Learn about exotic pets insurance </a> </p> </div>
+    
+
+    </div>
+
+<div class="blue-background">
+  <img class="responsive" src="http://cdn.lifebuzz.com/images/70747/lifebuzz-8159a0a999755a0adce79ef2c5f1a17d-limit_2000.jpg" height="390" width="400">
+
+ <h2>
+   Dog Insurance
+  </h2>
+  <p>
+    Get coverage for the Top 10 <br />Common Conditions for Dogs:
+  </p>
+       <h3 id="blue-hidden-ear">
+        Diagnosing the condition may require sedation or X-rays, but treating ear infections usually isn’t complicated. Antibiotics, anti-parasitics, antifungals, and corticosteroids are the most common treatments.
+      </h3>
+    <h3 id="blue-hidden-allergies">
+        Pets allergies are genetic, meaning that you’re more likely to develop them if you have family members who are allergic.
+      </h3> 
+  <h3 id="blue-hidden-skin">
+        A dog skin infection can either be bacterial or yeast related but both are easily treated. Yeast infections are very common in warmer weather so are often misdiagnosed as allergies.
+      </h3>
+  
+  <h3 id="blue-hidden-upset">
+        An upset stomach in a dog can be a very stressful situation for pet owners that feel helpless as they might not know what to do to help their pet feel better. Dogs owners need not fret because there are some great cures one can try at home to ease a pet's tummy troubles.
+      </h3>
+  <h3 id="blue-hidden-diarrhea">
+        Diarrhea is characterized by frequent loose or liquid bowel movements. It can be caused by something as simple as a change in diet or a more serious illness or infection.
+      </h3>
+  
+  <h3 id="blue-hidden-bladder">
+        Urinary incontinence occurs when a housetrained dog loses control of his bladder. This can range in severity from occasional small urine leaks to inadvertent voiding of a large amount of urine.
+      </h3>
+  
+  <h3 id="blue-hidden-eye">
+        Eye discharge is a common problem for some dogs. It can be a sign of anything from infection to glaucoma to allergies.
+      </h3>
+   <h3 id="blue-hidden-arth">
+        Eye discharge is a common problem for some dogs. It can be a sign of anything from infection to glaucoma to allergies.
+      </h3>
+  
+  <h3 id="blue-hidden-hypo">
+        The thyroid gland is an essential gland in the body, producing a number of hormones, including T3 (liothyronine) and T4 (levothyroxine), both of which are required for normal metabolism in the body.
+      </h3>
+  
+  <h3 id="blue-hidden-sprains">
+        The thyroid gland is an essential gland in the body, producing a number of hormones, including T3 (liothyronine) and T4 (levothyroxine), both of which are required for normal metabolism in the body.
+      </h3>
+  <ul class="f-ull">
+    <li class="b-ear">Ear infections</li>
+    <li class="b-allergies">Allergies</li>
+    <li class="b-skin">Skin infections</li>
+    <li class="b-upset">Upset stomach</li>
+    <li class="b-diarrhea">Diarrhea</li>
+  </ul> 
+  <ul>
+    <li class="b-bladder"> Bladder issues </li>
+    <li class="b-eye"> Eye infections </li>
+    <li class="b-arth">Arthritis</li>
+    <li class="b-hypo"> Hypothyroidism </li>
+    <li class="b-sprains"> Sprains </li>
+  </ul><hr/>
+  <div class="learn"> <p> <a href="#"> Learn about dog insurance </a></p> </div>
+  <div class='none'> <a href="#top" id="bottom"></a> </div>
+  </div>
+  </div>
+
+    <div class="price-plan">
+      <div class="container">
+        
+        <h1> Our Plans  </h1>
+        
+        <div class="row">
+    <div class="col-sm-4">
+      
+    <div class="level">
+      
+      <h2> LEVEL 1  </h2>
+      <div class="injuries"> <p><img class="inj-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/plaster_aid_bandage_bandaid_heal_wound_health_care_patch_flat_design_icon-512.png" height="30" width="30"/> Injuries <span class="glyphicon glyphicon-plus"></span> </p> </div>
+      <div class="hidden-inj">
+      <ul>
+        <li>Broken Bones</li>
+        <li>Cuts</li>
+        <li>Swallowed Objects</li>
+        <li>Bite Wounds</li>
+        <li>Burns</li>
+        <li>Car Accidents</li>
+        <li>Toxic Ingestions</li>
+        <li>And More</li>
+      </ul>
+      </div>
+      <h3> </h3>
+      <h3> </h3>
+      <h3> </h3>
+
+      </div>
+    </div>
+          
+    <div class="col-sm-4">
+      <div class="level">
+      <h2> LEVEL 2 </h2>
+      <div class="injuries1"><p> <img class="inj-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/plaster_aid_bandage_bandaid_heal_wound_health_care_patch_flat_design_icon-512.png" height="30" width="30"/>Injuries <span class="glyphicon glyphicon-plus"></span> </p></div>
+        <div class="hidden-inj1">
+      <ul>
+        <li>Broken Bones</li>
+        <li>Cuts</li>
+        <li>Swallowed Objects</li>
+        <li>Bite Wounds</li>
+        <li>Burns</li>
+        <li>Car Accidents</li>
+        <li>Toxic Ingestions</li>
+        <li>And More</li>
+      </ul>
+      </div>
+      <div class="illiness1"><p><img class="hearth-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/heart_cardiogram_cardio_beat_medical_pulse_life_rate_rhythm_monitor_flat_design_icon-128.png" height="30" width="30"/> Illinesses <span id="illinnes-plus" class="glyphicon glyphicon-plus"></span></p> </div>
+        <div class="hidden-ili1">
+      <ul>
+        <li>Cancer</li>
+        <li>Upset Stomach</li>
+        <li>Diabetes</li>
+        <li>Ear Infections</li>
+        <li>Skin Irritations</li>
+        <li>Urinary Tract Infections</li>
+        <li>Respiratory Infections</li>
+        <li>And More</li>
+      </ul>
+      </div>
+      <h3> </h3>
+      <h3> </h3>
+      </div>
+
+    </div>
+    <div class="col-sm-4">
+<div class="level">
+      <h2> LEVEL 3 </h2>
+      <div class="injuries2"><p><img class="inj-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/plaster_aid_bandage_bandaid_heal_wound_health_care_patch_flat_design_icon-512.png" height="30" width="30"/> Injuries <span class="glyphicon glyphicon-plus"></span></p> </div>
+  <div class="hidden-inj2">
+      <ul>
+        <li>Broken Bones</li>
+        <li>Cuts</li>
+        <li>Swallowed Objects</li>
+        <li>Bite Wounds</li>
+        <li>Burns</li>
+        <li>Car Accidents</li>
+        <li>Toxic Ingestions</li>
+        <li>And More</li>
+      </ul>
+      </div>
+      <div class="illiness2"><p><img class="hearth-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/heart_cardiogram_cardio_beat_medical_pulse_life_rate_rhythm_monitor_flat_design_icon-128.png" height="30" width="30"/> Illinesses <span id="illinnes-plus"class="glyphicon glyphicon-plus"></span></p> </div>
+
+  <div class="hidden-ili2">
+      <ul>
+        <li>Cancer</li>
+        <li>Upset Stomach</li>
+        <li>Diabetes</li>
+        <li>Ear Infections</li>
+        <li>Skin Irritations</li>
+        <li>Urinary Tract Infections</li>
+        <li>Respiratory Infections</li>
+        <li>And More</li>
+      </ul>
+      </div>
+      <div class="advance"> <p><img class="advance-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/doctor_staff_medic_person_medical_clinic_physician_surgeon_employee_flat_design_icon-128.png" height="30" width="30"/> Advanced Care <span id="advance-plus" class="glyphicon glyphicon-plus"></span></p> </div>
+  <div class="hidden-advCare">
+      <ul>
+        <li>Hereditary Conditions</li>
+        <li>Congenital Conditions</li>
+        <li>Alternative Therapies</li>
+        <li>Behavioral Issues</li>
+      </ul>
+      </div>
+      <h3> </h3>
+      </div>  
+         
+
+</div>
+  </div>
+      </div>
+    </div>
+   
+
+     <div class="paw-shake">
+      <div class="container">
+        <div class="col-md-9">
+      <h2>
+        We've had My Pet Friend for 5 years now. Great service and completely worth every penny! I recommend it to all of my friends and family.
+      </h2>
+        </div>
+    </div>
+    </div>
+    </div>
+            </div>
+    
+     <div class="container">
+        <div class="injur">
+        <div class="injuries-f">
+          <img class="inj-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/plaster_aid_bandage_bandaid_heal_wound_health_care_patch_flat_design_icon-512.png" height="80" width="80"/>
+          <h2> Injuries & Accidents </h2>
+          <p>All of our plans cover injuries, like broken bones, swallowed objects, car accidents and bite wounds. </p>
+        </div>
+        
+          <div class="injuries-f">
+          <img class="hearth-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/heart_cardiogram_cardio_beat_medical_pulse_life_rate_rhythm_monitor_flat_design_icon-128.png" height="80" width="80"/>
+          <h2> Illnesses </h2>
+          <p>Our most popular plan adds coverage for illnesses—from ear infections and stomach issues to cancer. </p>
+        </div>
+        
+          <div class="injuries-f">
+          <img class="advance-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/doctor_staff_medic_person_medical_clinic_physician_surgeon_employee_flat_design_icon-128.png" height="80" width="80"/>
+          <h2> Advanced Care </h2>
+          <p>Our top plans cover hereditary and congenital conditions, alternative therapies and behavioral issues. </p>
+        </div>
+        
+          <div class="injuries-f">
+          <img class="advance-icon" src="https://cdn0.iconfinder.com/data/icons/medicine-and-medical-equipment/512/hospital_building_clinic_exterior_medicine_house_construction_flat_design_icon-128.png" height="80" width="80"/>
+          <h2> Wellness Care </h2>
+          <p>Add wellness coverage to any plan for as little as $10 a month* to help pay for annual exams, core vaccines and more.</p>
+        </div>
+        </div>
+        <div class="right">
+          <div class="first-right">
+            <h1>Pet insurance: The smart choice for pets </h1>
+            <p>There are many reasons why more pet parents today are covering their pets with ASPCA Pet Health Insurance. Most of all, they want to make sure they'll have financial support if their pet is sick or hurt. That way, they can give their pets the best care possible without worrying about the cost. Let us help you find the perfect plan for your pet.</p>
+            
+            <h1>We have the plan that's right for your pet </h1>
+            <p>Our affordable options make it easy to get the coverage you need at the right price. Cover your pet for accidents, illnesses, wellness care, hereditary and congenital conditions and more. All of our plans reimburse up to 90%* of covered veterinary costs, and you can visit any licensed vet—even specialists!</p>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+     
+    <div class="footer-pic">
+      <div class="container">
+        <div class="footer-text">
+          <p> Get a free quote to cover your four-legged family.</p>
+          <ul>
+            <li class="half">
+            <input id="petName" name="petName" type="text" placeholder="Your Pet's Name">
+            </li>
+            <li> 
+              <button type="submit">GO ! </button>
+            </li>
+          </ul>
+        </div>
+    
+        <img src="https://s22.postimg.org/otnyzmjwh/oie_transparent.png" width="350px" height:"250px">
+      </div>
+      </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-skype"></i></a>
+        </div><!--End container-->
+    </footer><!--End footer 2-->
+    
+            <script src="index.js"></script>
+    </body>
+</html>
+    
+
